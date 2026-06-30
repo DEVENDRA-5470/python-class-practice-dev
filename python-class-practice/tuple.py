@@ -48,3 +48,11 @@
 # for i in range(len(marks_tuple)):
 #     s+=i
 # print(s)
+
+
+from custom_mod import check_odd_even,rev_str
+
+print(check_odd_even(10))
+
+print(rev_str("aman"))
+

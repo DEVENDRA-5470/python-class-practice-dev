@@ -55,7 +55,7 @@ profile={
     'dev':{
         'address':["Noida","Delhi","mumbai","varanasi"],
         'hobbies':["reading","cooking","travelling"],
-        'password':{"insta":"000000","fb":"1097867"},
+        'password':{"insta":{'profile1-pass':7565445,},"fb":"1097867"},
         },
 
 }
