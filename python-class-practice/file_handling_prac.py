@@ -26,10 +26,18 @@ import os
 # folder="Employee_Details"
 # os.makedirs(folder)
 
+
+
+
+path=r"C:/Users/dev/OneDrive/Desktop/git-for-118/Employee_Details"
+os.chdir(path)
+print(os.getcwd())
+print(os.listdir())
+
 emp_list=["aman","shivam","shubham","anshu","kamal","dev","xyz"]
 for i in emp_list:
-    os.remove(f"{i}.txt")
-    print(i , "removed..")
+    with open(f"{i}.txt","w") as file:
+        print(i , "Created")
 
 
 
