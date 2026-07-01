@@ -33,8 +33,9 @@ path=r"C:/Users/dev/OneDrive/Desktop/git-for-118/Employee_Details"
 os.chdir(path)
 print(os.getcwd())
 print(os.listdir())
+os.path.join()
 
-emp_list=["aman","shivam","shubham","anshu","kamal","dev","xyz"]
+emp_list=["aman","shivam","shubham","anshu","kamal"]
 for i in emp_list:
     with open(f"{i}.txt","w") as file:
         print(i , "Created")
